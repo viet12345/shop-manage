@@ -1,0 +1,11 @@
+<form action='/shop/items' method="GET">
+% foreach (data as data)
+{%
+    <li>
+        <span><%=data.name%></span>
+        <span><%=data.description%></span>
+    </li>
+    %
+}
+%
+</form>
